@@ -1,0 +1,100 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.testing {
+    height: 865;
+    min-width: 768px;
+    background: url('./banner.jpg') center no-repeat;
+    place-items: center;
+}
+
+.format {
+    height: 865;
+    width: 1110;
+    min-width: 768;
+    margin: auto;
+}
+
+.ovan-border {
+    padding: 10;
+    margin: 20;
+    border: 2px solid green;
+    border-radius: 25px;
+}
+
+.float-right {
+    margin: 20;
+    display: inline-block;
+    float: right;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.about-sign {
+    border: 1px red;
+    height: 79;
+}
+
+.img {
+    background: url('https://harypham97.github.io/template-bootstrap/hapoERP.png') no-repeat center;
+    height: 295;
+}
+
+.icon {
+    height: 110;
+    margin-bottom: 53px;
+}
+
+.three-colum {
+    width: 33%;
+    height: 110;
+    display: inline-block;
+}
+
+.two-row {
+    height: 50%;
+    display: block;
+}
+
+.center-text {
+    place-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto;
+}
+
+.text {
+    height: 40;
+    place-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.button {
+    height: 40;
+    margin-bottom: 233;
+    margin-top: 31;
+    padding: 0 15 0 15;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.center-item {
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 17px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+    background-color: green;
+    padding: 5 15 5 15;
+    cursor: pointer;
+}
